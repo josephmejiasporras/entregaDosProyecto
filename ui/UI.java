@@ -103,7 +103,7 @@ public class UI extends Application {
 
     public static void loadRandom() throws FileNotFoundException {
         Image random;
-        File imagen1 = new File("C:\\Users\\capri\\Pictures\\custom.png");
+        File imagen1 = new File("C:\\custom.png");
         FileInputStream inputstream;
         inputstream = new FileInputStream(imagen1);
         Image preview11 = new Image(inputstream);
@@ -140,7 +140,7 @@ public class UI extends Application {
         closeMenu.setMinWidth(1195);
         closeMenu.setAlignment(Pos.TOP_RIGHT);
         closeMenu.getChildren().addAll(cerrar);
-        ImageView logo = new ImageView(convertImage("C:\\Users\\capri\\Downloads\\logoo\\logo.png", 273.06, 106.25, true, true));
+        ImageView logo = new ImageView(convertImage("C:\\logo.png", 273.06, 106.25, true, true));
         topMenu.getStyleClass().add("topMenu");
         topMenu.getChildren().addAll(logo, closeMenu);
         topMenu.setOnMousePressed(e -> {
@@ -206,7 +206,7 @@ public class UI extends Application {
     public static VBox importScene() throws FileNotFoundException {
 
         HBox importAux = new HBox();
-        File imagen1 = new File("C:\\Users\\capri\\Pictures\\custom.png");
+        File imagen1 = new File("C:\\custom.png");
         FileInputStream inputstream;
         inputstream = new FileInputStream(imagen1);
         Image preview11 = new Image(inputstream);
@@ -512,7 +512,7 @@ public class UI extends Application {
     /* Animacion de Bienvenida */
     public void loadLogo() throws InterruptedException, FileNotFoundException {
 
-        Media media = new Media(new File("C:\\Users\\capri\\Downloads\\logoo\\logo.mp4").toURI().toString());
+        Media media = new Media(new File("C:\\logo.mp4").toURI().toString());
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setAutoPlay(true);
         MediaView mediaView = new MediaView(mediaPlayer);
@@ -543,9 +543,9 @@ public class UI extends Application {
         /* TOP MENU */
         HBox topMenu = new HBox();
 
-        Image closeButton = convertImage("C:\\Users\\capri\\Downloads\\logoo\\cancel.png", 40, 40, true, true);
+        Image closeButton = convertImage("C:\\cancel.png", 40, 40, true, true);
         ImageView closeButtonIv = new ImageView(closeButton);
-        Image minimizeButton = convertImage("C:\\Users\\capri\\Downloads\\logoo\\minimize2.png", 40, 40, true, true);
+        Image minimizeButton = convertImage("C:\\minimize2.png", 40, 40, true, true);
         ImageView minimizeButtonIv = new ImageView(minimizeButton);
         close.setGraphic(closeButtonIv);
 
@@ -596,9 +596,9 @@ public class UI extends Application {
         resetPW.getStyleClass().add("dwnButton");
         crearCuenta.getStyleClass().add("dwnButton");
 
-        ImageView logoLogin = new ImageView(convertImage("C:\\Users\\capri\\Downloads\\logoo\\logo2.png", 300, 300, true, true));
+        ImageView logoLogin = new ImageView(convertImage("C:\\logo2.png", 300, 300, true, true));
 
-        correo.setText("capricorn.joe@hotmail.com");
+        correo.setText("ejemplo@ejemplo.com");
         contrasena.setText("1234");
 
         layout.getChildren().addAll(topMenu, logoLogin, iniciaSesion, espacio3, correo, espacio, contrasena, espacio2, loginButton, espacio4, resetPW, crearCuenta);
@@ -656,9 +656,9 @@ public class UI extends Application {
         /* TOP MENU */
         HBox topMenu = new HBox();
 
-        Image closeButton = convertImage("C:\\Users\\capri\\Downloads\\logoo\\cancel.png", 40, 40, true, true);
+        Image closeButton = convertImage("C:\\cancel.png", 40, 40, true, true);
         ImageView closeButtonIv = new ImageView(closeButton);
-        Image minimizeButton = convertImage("C:\\Users\\capri\\Downloads\\logoo\\minimize2.png", 40, 40, true, true);
+        Image minimizeButton = convertImage("C:\\minimize2.png", 40, 40, true, true);
         ImageView minimizeButtonIv = new ImageView(minimizeButton);
         closeSignIn.setGraphic(closeButtonIv);
 
@@ -706,7 +706,7 @@ public class UI extends Application {
         /* reset y create */
         Button back = new Button();
 
-        ImageView backImage = new ImageView(convertImage("C:\\Users\\capri\\Downloads\\logoo\\logoB.png", 100, 100, true, true));
+        ImageView backImage = new ImageView(convertImage("C:\\logoB.png", 100, 100, true, true));
         back.setGraphic(backImage);
         layout.getChildren().addAll(topMenu, backImage, iniciaSesion, espacio3, correoRegistro, espacio, contrasenaRegistro);
         layout.setMinWidth(400);

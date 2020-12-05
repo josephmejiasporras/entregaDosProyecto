@@ -70,7 +70,7 @@ public final class Player extends VBox {
             trackPane.setStyle(style);
         });
         getStyleClass().add("player");
-        File imagen1 = new File("C:\\Users\\capri\\Pictures\\custom.png");
+        File imagen1 = new File("C:\\custom.png");
         FileInputStream inputstream;
         Image preview11 = null;
         try {

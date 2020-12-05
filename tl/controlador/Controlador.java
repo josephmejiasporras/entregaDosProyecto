@@ -5,7 +5,6 @@ import ui.UI;
 import bl.entidades.*;
 import bl.logica.Gestor;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.net.MalformedURLException;
 import java.sql.SQLException;
@@ -263,7 +262,7 @@ public class Controlador extends Application {
 
     private void loadLogin() throws InterruptedException, FileNotFoundException {
 
-        //ui.loadLogo();
+        ui.loadLogo();
         UI.close.setOnAction(e -> {
             /*if (ConfirmBox.display("", "Está seguro que desea cerrar?")) {
                 
