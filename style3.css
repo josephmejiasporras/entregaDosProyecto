@@ -1,0 +1,70 @@
+
+.dwnButton{
+    -fx-text-fill: white;
+}
+
+.root{
+    -fx-background-color: #131313;
+    -fx-border-width: 0.5px;
+    -fx-border-color: white;
+}
+
+.button{
+    -fx-padding: 10;
+    
+    -fx-cursor:hand;
+    -fx-background-color: transparent;
+}
+
+.button:hover{
+    -fx-opacity:0.5;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-padding: 10px;
+}
+
+.text-field{
+    -fx-max-width: 200px;
+    -fx-padding: 10 10 10 10;
+    -fx-background-radius: 40 40 40 40;
+}
+
+.text-field:empty{
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+}
+
+
+.espacio{
+    -fx-font-size: 2px;
+}
+
+.espacio2{
+    -fx-font-size: 15px;
+}
+
+
+.topMenu{
+    
+    -fx-min-width: 150;
+}
+
+.loginButton{
+    -fx-background-radius: 120 120 120 120;
+    -fx-padding: 8 12 8 12;
+    -fx-text-fill: #131313;
+    -fx-font-size: 20px;
+    -fx-min-width: 48px;
+    -fx-font-weight: 700;
+    -fx-background-color: #cccccc;
+}
+.loginButton:hover{
+    
+    -fx-background-color: white;
+    -fx-font-weight: 700;
+    -fx-opacity:1;
+}
+

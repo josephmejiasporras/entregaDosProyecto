@@ -1,0 +1,205 @@
+
+.root{
+    -fx-background-color: #131313;
+}
+
+.bottomBar{
+
+    -fx-min-height: 100px;
+    -fx-background-color: black;
+}
+
+
+.button{
+    -fx-cursor: hand;
+    -fx-font-size: 19px;
+    -fx-text-fill: white;
+    -fx-background-color: #1a1a1a;
+    -fx-margin: 15px;
+    -fx-padding: 5 0 5 45;
+}
+
+.button:hover{
+    -fx-opacity: 0.6;
+    -fx-text-fill: white;
+}
+
+.navigationBar{
+    -fx-padding: 20 10 10 10;
+    -fx-min-width: 270px;
+    -fx-background-color: #1a1a1a;
+}
+
+.closeButton{
+    -fx-padding: 0 15 0 0;
+    -fx-min-width: 20;
+}
+
+.addPlaylist{
+    -fx-padding: 10 0 0 15;
+    -fx-font-size: 25px;
+}
+
+.topMenu{
+    -fx-padding: 8 0 0 5;
+}
+
+.label{
+    -fx-font-weight: 600;
+    -fx-padding: 6 0 0 38;
+    -fx-font-size: 29px;
+    -fx-text-fill: white;
+}
+
+
+.trackPane{
+    -fx-background-color: linear-gradient(rgba(221,221,240,1) 0%, rgba(31,140,162,1) 100%);
+}
+
+.player{
+    -fx-min-height: 130px;
+    
+}
+
+.containerImagen {
+    
+    -fx-padding:10px;
+}
+
+
+.volumeLabel{
+ -fx-font-size:20px;   
+}
+
+.slider{
+    -fx-cursor:hand;
+    -fx-background-color: #131313;
+    -fx-padding:0;
+    -fx-border-style: none;
+}
+
+.timeSlider{
+    -fx-padding:0;
+    -fx-border-radius: 0px;
+}
+
+.slider .track{
+    -fx-background-color:#969696;
+    -fx-pref-height:4;
+}
+
+.slider .thumb{
+   -fx-background-color: transparent;
+}
+
+.table-view {
+    -fx-border-width:0px;
+    
+    -fx-background-color: #131313;
+}
+
+
+
+.table-view .filler{
+    -fx-background-color: #131313;
+    -fx-border-width:0px;
+}
+
+.column-header .column-header-background .filler{
+    -fx-background-color: #ff33cc;
+}
+
+.table-view .column-header{
+    -fx-text-fill: white;
+    -fx-background-color: #131313;
+    
+}
+
+.table-view .table-cell{
+    -fx-padding: 10px;
+    -fx-text-fill: white;
+    -fx-border-width:0px;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: #131313;
+}
+.table-row-cell:empty:hover {
+    -fx-background-color: #131313;
+}
+
+.importScene{
+    -fx-padding: 100;
+}
+
+
+.table-row-cell{
+    -fx-text-fill: white;
+    -fx-border-width:0px;
+    -fx-font-size:17px;
+    -fx-background-color: #131313;
+    -fx-background-radius:4px;
+}
+
+
+
+.table-view:focus{
+    -fx-border-width:0px;
+}
+
+
+.table-row-cell:hover {
+    -fx-background-color: rgb(128,128,128, 0.2);
+}
+
+.table-row-cell:selected{
+    -fx-background-color:rgb(128,128,128, 0.4);
+}
+
+.column-header{
+    -fx-size:60;
+}
+
+.songArtist{
+    -fx-font-size: 18px;
+}
+
+.songName{
+    -fx-font-size: 22px;
+}
+
+.volume .track{
+    -fx-pref-height:20;
+    -fx-background-color:#2D819D;
+}
+
+.table-view .label{
+    -fx-text-fill: #cccccc;
+    -fx-font-size: 20px;
+    -fx-font-weight: bolder;
+    -fx-padding:10px;
+}
+
+.songsLayout{
+    -fx-padding:20px;
+}
+
+.headerSongsLayout{
+    -fx-font-weight: bolder;
+    -fx-padding:17px;
+    -fx-font-size: 20px;
+}
+
+
+.playButton{
+    -fx-background-color: #131313;
+    -fx-padding: 3px 13px 3px 13px;
+    -fx-font-width: bolder;
+    -fx-font-size: 40px;
+}
+
+
+.imageViewSong{
+    
+    -fx-padding: 10px;
+}
